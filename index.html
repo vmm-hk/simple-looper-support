@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple Looper · Support</title>
+<meta name="description" content="Help, FAQ and contact for Simple Looper, the one-button looper pedal for iPhone.">
+<style>
+  :root {
+    --bg: #F3F5F9; --card: #FFFFFF; --text: #141B2D; --muted: #5A6478; --line: #DDE3EC; --accent: #4C6A92;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0B0E16; --card: #151C2C; --text: #EEF1F6; --muted: #98A2B6; --line: #26304A; --accent: #B2C6DD; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 72px; }
+  .kicker { letter-spacing: .35em; font-size: 12px; text-transform: uppercase; color: var(--accent); margin: 0; }
+  h1 { font: italic 700 46px/1.1 Georgia, "Times New Roman", serif; margin: 6px 0 14px; }
+  h2 { font: italic 700 26px/1.2 Georgia, "Times New Roman", serif; margin: 44px 0 12px; }
+  h3 { font-size: 16px; margin: 0 0 4px; }
+  p { margin: 0 0 12px; }
+  .lead { color: var(--muted); font-size: 18px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; margin: 0 0 12px; }
+  .card p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 8px 0; border-top: 1px solid var(--line); vertical-align: top; }
+  tr:first-child td { border-top: 0; }
+  td:first-child { width: 34%; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); padding-top: 11px; }
+  a { color: var(--accent); }
+  .mail { display: inline-block; background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600;
+          padding: 12px 22px; border-radius: 12px; margin-top: 4px; }
+  footer { color: var(--muted); font-size: 13px; margin-top: 56px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Simple Looper</p>
+  <h1>Support</h1>
+  <p class="lead">One pedal, one knob. Hit the pedal anywhere on the screen and the LED tells you what it is doing.</p>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Questions, bugs or ideas? Write to us, we usually answer within two working days.</p>
+    <a class="mail" href="mailto:office@vmm.hk?subject=Simple%20Looper">office@vmm.hk</a>
+  </div>
+
+  <h2>How it works</h2>
+  <div class="card">
+    <table>
+      <tr><td>Tap</td><td>Record, close the loop, overdub, keep the overdub, or play again after a stop.</td></tr>
+      <tr><td>Double-tap</td><td>Stop. While recording or overdubbing it throws the take away.</td></tr>
+      <tr><td>Hold</td><td>Undo the last overdub (hold again to redo). When stopped, clear the loop.</td></tr>
+      <tr><td>Knob</td><td>Drag up or down to set the loop volume. Your live playing is not affected.</td></tr>
+    </table>
+  </div>
+  <p>The full manual is in the app: Settings → How to use.</p>
+
+  <h2>FAQ</h2>
+  <div class="card">
+    <h3>It does not record anything.</h3>
+    <p>Allow the microphone: iPhone Settings → Simple Looper → Microphone.</p>
+  </div>
+  <div class="card">
+    <h3>I hear a delay or feedback.</h3>
+    <p>Use wired headphones or an audio interface. Bluetooth headphones add delay, and the input is muted on the
+       phone speaker to avoid feedback.</p>
+  </div>
+  <div class="card">
+    <h3>Which MIDI footswitches work? (Pro)</h3>
+    <p>Any Bluetooth or USB MIDI pedal that sends Note or CC messages, for example Boss FS-1-WL, AIRSTEP,
+       M-Vave Chocolate, Morningstar MC series or Paint Audio MIDI Captain. Pair Bluetooth pedals in
+       Settings → MIDI footswitch, then tap Learn and press the button. Keyboard-style page turners are not supported.</p>
+  </div>
+  <div class="card">
+    <h3>How do I get my loops out? (Pro)</h3>
+    <p>Save the loop, then in Saved loops tap ••• → Export WAV or M4A and send it to Files, AirDrop or another app.</p>
+  </div>
+  <div class="card">
+    <h3>I bought Pro on another device.</h3>
+    <p>Open Settings → Unlock Pro and tap “Restore purchase”. Pro is a one-time purchase, no subscription.</p>
+  </div>
+  <div class="card">
+    <h3>How do I reset the app?</h3>
+    <p>Settings → Reset settings puts every setting back to default. Saved loops and Pro stay. Deleting the app removes everything.</p>
+  </div>
+
+  <h2 id="privacy">Privacy</h2>
+  <div class="card">
+    <p>Simple Looper collects no personal data. There are no accounts, no analytics, no ads and no tracking.</p>
+    <p>Microphone audio is processed on your iPhone and is never uploaded. Saved loops and settings stay on your device
+       and only leave it when you export them yourself. Bluetooth is only used to connect MIDI footswitches.
+       Purchases are handled by Apple; we do not see your payment details.</p>
+  </div>
+
+  <footer>Simple Looper for iPhone · <a href="mailto:office@vmm.hk">office@vmm.hk</a></footer>
+</main>
+</body>
+</html>
